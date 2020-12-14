@@ -1,29 +1,18 @@
-# ICP-Localization-by-SfM-and-image-stitching
+# **Image stitching with RANSAC**
 
-### This is the public repo for the final project of EECS 504
+Edit Stitch2images.py
 
-The goal of the project is to construct the 3D map from 2D images, and then use the local 2D image information do the localization tracking. The main localization algorithm is Iterative closest point (ICP).
+Set the path and select two images, then generate the stitched image
 
-The following figure illustrates our target map for localization.
+Using __sift__ to do featuring extraction, if cv2.__version__ is 4.0 , should uninstall and install the following version
 
-![](https://i.imgur.com/AinbRTX.jpg)
+```py
+pip install opencv-python==3.4.2.16
+pip install opencv-contrib-python==3.4.2.16
+```
 
+# Multi images stitching
 
-The figure below shows the third time step of our localization process.
+Use Multi_images_stitching.py
 
-![](https://i.imgur.com/98yAOl1.jpg)
-
-
-A series of drone images are used as the our dataset. The results of our implementation were recorded as a video (See the video folder).
-
----
-
-### Dependencies:
-+ Ubuntu 18.04
-+ ROS melodic
-+ Python > 3.5.x
-+ pcl 1.8.1	https://github.com/strawlab/python-pcl
-+ Cython <= 0.25.2
-
-### Dataset:
-OpenDrone Map Dataset (ODM Dataset)		https://drive.google.com/drive/folders/1O1TIR0ohgkf4xtJx7RsKn5us14D-L_xB
+*The different between each image must be less than 30%*
