@@ -5,10 +5,10 @@
 #### EECS 504: Foundations of Computer Vision</br>University of Michigan, Ann Arbor
 
 #### Collaborators:
-Wei-Chin Chien
-Ke-Haur Taur
-Wei-Fan Tseng
-Hao-Tsung Lee
+Wei-Chin Chien </br>
+Ke-Haur Taur </br>
+Wei-Fan Tseng </br>
+Hao-Tsung Lee </br>
 
 ### Main Objective
 
