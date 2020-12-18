@@ -2,14 +2,31 @@
 
 ### This is the public repo for the final project of EECS 504
 
+#### EECS 504: Foundations of Computer Vision</br>University of Michigan, Ann Arbor
+
+#### Collaborators:
+Wei-Chin Chien
+Ke-Haur Taur
+Wei-Fan Tseng
+Hao-Tsung Lee
+
+### Main Objective
+
 The goal of the project is to construct the 3D map from 2D images, and then use the local 2D image information do the localization tracking. The main localization algorithm is Iterative closest point (ICP).
 
-The following figure illustrates our target map for localization.
+### Editing/Viewing Point Clouds
+Point Clouds are generated from the public OpenSfM package.
+Software like Meshlab can view/edit .plt files which you can find in our /data folder.
 
+The following figure illustrates our target map for localization.
 ![](https://i.imgur.com/AinbRTX.jpg)
 
 
-The figure below shows the third time step of our localization process.
+### Performing Localization
+
+A ROS envrionment with RViz installed is required for executing our ICP algorithm.
+
+The figure below shows the third time step of our localization process. </br>Localized source labeled as the dark region in the figure.
 
 ![](https://i.imgur.com/98yAOl1.jpg)
 
